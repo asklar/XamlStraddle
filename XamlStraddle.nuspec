@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamlStraddle</id>
+    <version>0.0.1</version>
+    <authors>Alexander Sklar</authors>
+    <owners>Alexander Sklar</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/asklar/XamlStraddle</projectUrl>
+    <description>Allows dual-targetting a C++/WinRT project to both system XAML and WinUI</description>
+    <copyright>Copyright 2020</copyright>
+    <tags>UWP WinUI WinRT CppWinRT XAML Windows</tags>
+  </metadata>
+  <files>
+    <file src="inc\**" target="inc" />
+    <file src="build\**" target="build" />
+  </files>
+</package>
