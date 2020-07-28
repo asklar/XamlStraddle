@@ -7,7 +7,7 @@
 
 #ifdef USE_WINUI3
 #include <winrt/Microsoft.UI.Xaml.h>
-namespace activation = xaml;
+namespace activation = winrt::Microsoft::UI::Xaml;
 #else
 namespace activation = winrt::Windows::ApplicationModel::Activation;
 #endif
