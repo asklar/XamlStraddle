@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>XamlStraddle</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <authors>asklar_MSFT</authors>
     <owners>asklar_MSFT</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
