@@ -6,8 +6,8 @@
 #ifdef USE_WINUI3
 #include <winrt/Microsoft.UI.Xaml.Controls.h>
 namespace winrt::Microsoft::UI::Xaml::Controls {
-using IPasswordBox4 = ::xaml::Controls::IPasswordBox;
-using ITextBox6 = ::xaml::Controls::ITextBox;
+using IPasswordBox4 = ::winrt::Microsoft::UI::Xaml::Controls::IPasswordBox;
+using ITextBox6 = ::winrt::Microsoft::UI::Xaml::Controls::ITextBox;
 }; // namespace winrt::Microsoft::UI::Xaml::Controls
 #else
 #include <winrt/Windows.UI.Xaml.Controls.h>
