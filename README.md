@@ -24,3 +24,6 @@ In your msbuild project (vcxproj) file:
   </ItemDefinitionGroup>
 ```
 
+## How to use
+Instead of including `<winrt/Windows.UI.Xaml.h>` etc., just include `<UI.Xaml.h>`.
+Then when use the namespace aliases, e.g. instead of `winrt::Windows::UI::Xaml` (or WinUI 3's `winrt::Microsoft::UI::Xaml`) use the `xaml` alias.
