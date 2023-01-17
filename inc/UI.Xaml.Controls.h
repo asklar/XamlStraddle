@@ -8,7 +8,7 @@
 namespace winrt::Microsoft::UI::Xaml::Controls {
     using IPasswordBox4 = ::winrt::Microsoft::UI::Xaml::Controls::IPasswordBox;
     using ITextBox6 = ::winrt::Microsoft::UI::Xaml::Controls::ITextBox;
-    using IFlyoutButton = ::winrt::Microsoft::UI::Xaml::Controls::IButton;
+    using IButtonWithFlyout = ::winrt::Microsoft::UI::Xaml::Controls::IButton;
 }; // namespace winrt::Microsoft::UI::Xaml::Controls
 #else
 #include <winrt/Windows.UI.Xaml.Controls.h>
