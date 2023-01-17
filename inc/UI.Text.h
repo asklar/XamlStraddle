@@ -9,7 +9,7 @@
 #include <winrt/Microsoft.UI.Text.h>
 namespace text = winrt::Microsoft::UI::Text;
 namespace winrt::Microsoft::UI::Text {
-using FontStyle = winrt::Windows::UI::Text::FontStyle;
+    using FontStyle = winrt::Windows::UI::Text::FontStyle;
 }
 #else
 namespace text = winrt::Windows::UI::Text;
